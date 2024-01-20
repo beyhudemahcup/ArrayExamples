@@ -16,7 +16,6 @@
             _salary = salary;
         }
 
-
         public string GetDetails()
         {
             string details = $"Employee name: {_name}, Employee salary: {_salary}";
