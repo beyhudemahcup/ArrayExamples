@@ -30,6 +30,13 @@
             return _grades;
         }
 
+        public static void GetGrades()
+        {
+            int[] arr = GradeGenerator.GradeCalculator(10);//10 students grade will be shown
+            //can get asterisks for every int value
+            GradeGenerator.GradeDefiner(arr);
+        }
+
         private static int GetLowestGrade(int[] grades)
         {
             lowestGrade = grades[0];
@@ -71,10 +78,10 @@
 
             foreach (var i in arr)
             {
-                ++arr[i/10];
+                ++frequency[i/10];//showing one asteriks to one grade
             }
 
-            for (int i = 0; i < arr.Length; i++)
+            for (int i = 0; i < frequency.Length; i++)
             {
                 if (i == 10)
                 {
@@ -86,7 +93,7 @@
                 }
 
                 //give an asterisk for every grade
-                for (int j = 0; j < arr[i]; j++)
+                for (int j = 0; j < frequency[i]; j++)
                 {
                     Console.Write("*");
                 }
