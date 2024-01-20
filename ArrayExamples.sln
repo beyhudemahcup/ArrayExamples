@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExamples", "ArrayExamples\ArrayExamples.csproj", "{0A69C363-E5A9-408E-A505-D3A38799EE52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayExamples", "ArrayExamples\ArrayExamples.csproj", "{0A69C363-E5A9-408E-A505-D3A38799EE52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciSequence", "FibonacciSequence\FibonacciSequence.csproj", "{A4AB3D1A-F881-4BC0-AD80-C0C578CF45A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangularArray", "RectangularArray\RectangularArray.csproj", "{4ACF9192-33A1-4A06-8004-C9115B912831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectArrayExample", "ObjectArrayExample\ObjectArrayExample.csproj", "{7EE2BD15-FCFA-4474-B8FE-9F437D51DFD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{0A69C363-E5A9-408E-A505-D3A38799EE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A69C363-E5A9-408E-A505-D3A38799EE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A69C363-E5A9-408E-A505-D3A38799EE52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4AB3D1A-F881-4BC0-AD80-C0C578CF45A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4AB3D1A-F881-4BC0-AD80-C0C578CF45A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4AB3D1A-F881-4BC0-AD80-C0C578CF45A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4AB3D1A-F881-4BC0-AD80-C0C578CF45A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ACF9192-33A1-4A06-8004-C9115B912831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ACF9192-33A1-4A06-8004-C9115B912831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ACF9192-33A1-4A06-8004-C9115B912831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ACF9192-33A1-4A06-8004-C9115B912831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE2BD15-FCFA-4474-B8FE-9F437D51DFD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE2BD15-FCFA-4474-B8FE-9F437D51DFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE2BD15-FCFA-4474-B8FE-9F437D51DFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE2BD15-FCFA-4474-B8FE-9F437D51DFD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
